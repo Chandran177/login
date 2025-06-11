@@ -1,0 +1,101 @@
+@media (max-width:1100px) {
+
+    .section1,
+    .batch-schedule {
+        flex-direction: column;
+    }
+
+    .section1>div,
+    .batch-schedule>div {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .section1 .custom-list {
+        display: none;
+    }
+
+    .section1-enroll,
+    .timer {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .section-2>h1,
+    .section-2>p {
+        text-align: center;
+    }
+
+    .section-2-layout-left,
+    .section-2-layout-right {
+        width: 100%;
+    }
+
+    .section4-left {
+        gap: 30px
+    }
+
+    .batch-schedule-layout p {
+        text-align: center;
+    }
+
+    .section4-left .card1 {
+        margin: 40px 0;
+    }
+
+    .section6-layout {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .section6-layout>div {
+        width: 100%;
+    }
+
+    .section-6-left {
+        width: 100%;
+    }
+
+    .section-6-left>img {
+        position: relative;
+        top:30px;
+        left:5% ;
+    }
+    .section-9-layout{
+        flex-direction: column;
+        gap:40px;
+    }
+    .section-9-layout>div {
+        width: 100%;
+    }
+    .section-9-layout ul {
+        width: fit-content;
+        margin:auto;
+        padding: 0 10%;
+    }
+    .hat{
+        display: none !important;
+    }
+    .section-10 {
+        flex-direction: column;
+    }
+    .accordion-container{
+        width: 80vw;
+        margin:auto;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer>div {
+    width: 100%;
+    text-align: center;
+}
+.footer>div h1{
+    font-size: 30px !important;
+    margin: 4%;
+} 
+.btn{
+    margin: auto;
+}
+}
