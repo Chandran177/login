@@ -21,7 +21,7 @@
         margin: auto;
         margin-top: 20px;
     }
-
+   
     .section-2>h1,
     .section-2>p {
         text-align: center;
@@ -59,43 +59,136 @@
 
     .section-6-left>img {
         position: relative;
-        top:30px;
-        left:5% ;
+        top: 30px;
+        left: 5%;
     }
-    .section-9-layout{
+
+    .section-9-layout {
         flex-direction: column;
-        gap:40px;
+        gap: 40px;
     }
+
     .section-9-layout>div {
         width: 100%;
     }
+
     .section-9-layout ul {
         width: fit-content;
-        margin:auto;
+        margin: auto;
         padding: 0 10%;
     }
-    .hat{
+
+    .hat {
         display: none !important;
     }
+
     .section-10 {
         flex-direction: column;
     }
-    .accordion-container{
+
+    .accordion-container {
         width: 80vw;
-        margin:auto;
+        margin: auto;
     }
-    .footer{
+
+    .footer {
         flex-direction: column;
     }
+
     .footer>div {
-    width: 100%;
-    text-align: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer>div h1 {
+        font-size: 30px !important;
+        margin: 4%;
+    }
+
+    .btn {
+        margin: auto;
+    }
 }
-.footer>div h1{
-    font-size: 30px !important;
-    margin: 4%;
-} 
-.btn{
+
+@media (max-width:600px) {
+
+    .section1>div,
+    .batch-schedule>div {
+        width: 100%;
+    }
+
+     .section1-enroll{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section1-enroll .submit-btn{
+        width: 80%;
+        order: 1;
+    }
+
+    .form-container {
+        padding: 10px 15px;
+    }
+
+    .form-container h2 {
+        font-size: 20px;
+    }
+
+    form {
+        gap: 10px
+    }
+
+    input,
+    select {
+        padding: 6px;
+    }
+
+    .submit-btn {
+        padding: 10px;
+        margin-top: 15px;
+    }
+
+}
+
+@media (max-width:425px) {
+    .card1{
+        width: 90%;
+    } 
+    .row{
+        flex-direction: column;
+        gap:20px;
+    }
+    .left,
+.right{
+    align-items: center;
+}
+.s6-price{
+    font-size: clamp(1rem, 0.7975rem + 1.0127vw, 2rem);
+}
+
+.s6-price :nth-child(3)::after {
+    font-size: clamp(1rem, 0.7975rem + 1.0127vw, 2rem);
+    left:15%
+}
+.section-6-right .timer {
+    width: 100%;
+
+}
+.section-6-right .countdown{
+    gap:10px;
+    font-size: 15px;
+}
+.section-6-right .label {
+    font-size: 10px;
+}
+.section-6-right .progress-bar-container {
+    width: 90%;
     margin: auto;
+}
+header img{
+    width: 300px;
+}
+.section1 h1{
+    font-family: 28px !important;
 }
 }
